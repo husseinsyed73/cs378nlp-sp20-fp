@@ -8,7 +8,7 @@ import os
 import json
 import gzip
 import pickle
-
+import gensim
 import torch
 from tqdm import tqdm
 
@@ -73,7 +73,7 @@ def load_cached_embeddings(path):
     Returns:
         Dictionary mapping words (strings) to vectors (list of floats).
     This checks if we allready created the data set 
-    """
+    
     bare_path = os.path.splitext(path)[0]
     cached_path = f'{bare_path}.pkl'
     if os.path.exists(cached_path):
@@ -81,7 +81,15 @@ def load_cached_embeddings(path):
     embedding_map = load_embeddings(path)
     pickle.dump(embedding_map, open(cached_path, 'wb'))
     return embedding_map
-
+    """
+    model = gensim.models.KeyedVectors.load_word2vec_format(
+     	'../drive/MyDrive/BioWordVec_PubMed_MIMICIII_d200.vec.bin',
+      	binary=True,
+      	 #limit=None, # this fuckin thing has 4 billion tokens (4E9)
+         #faster load if you limit to most frequent terms
+		     limit=int(20000)
+	  )
+    return model
 
 def load_embeddings(path):
     """
