@@ -72,6 +72,7 @@ def load_cached_embeddings(path):
 
     Returns:
         Dictionary mapping words (strings) to vectors (list of floats).
+    This checks if we allready created the data set 
     """
     bare_path = os.path.splitext(path)[0]
     cached_path = f'{bare_path}.pkl'
@@ -92,6 +93,7 @@ def load_embeddings(path):
 
     Returns:
         Dictionary mapping words (strings) to vectors (list of floats).
+    Here is where the new embeddings go 
     """
     embedding_map = {}
     with open(path) as f:
