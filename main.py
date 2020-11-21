@@ -161,13 +161,13 @@ parser.add_argument(
 parser.add_argument(
     '--vocab_size',
     type=int,
-    default=50000,
+    default=500000,
     help='vocabulary size (dynamically set, do not change!)',
 )
 parser.add_argument(
     '--embedding_dim',
     type=int,
-    default=300,
+    default=200,
     help='embedding dimension',
 )
 parser.add_argument(
@@ -560,6 +560,7 @@ def main(args):
             )
 
             # If early stopping conditions are met, stop training.
+            
             if _early_stop(args, eval_history):
                 suffix = 's' if args.early_stop > 1 else ''
                 print(
@@ -568,6 +569,7 @@ def main(args):
                 )
                 print()
                 break
+            
     if args.do_test:
         # Write predictions to the output file. Use the printed command
         # below to obtain official EM/F1 metrics.
