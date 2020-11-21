@@ -167,7 +167,7 @@ parser.add_argument(
 parser.add_argument(
     '--embedding_dim',
     type=int,
-    default=200,
+    default=300,
     help='embedding dimension',
 )
 parser.add_argument(
@@ -193,7 +193,6 @@ parser.add_argument(
     default=0.,
     help='dropout on passage and question vectors',
 )
-
 
 def _print_arguments(args):
     """Pretty prints command line args to stdout.
@@ -462,12 +461,13 @@ def main(args):
 
     # Set up datasets.
     train_dataset = QADataset(args, args.train_path)
-    dev_dataset = QADataset(args, args.dev_path)
+    train_dataset_focus = QADataset(args,"../drive/MyDrive/bioasqfocus.jsonl.gz")
+    dev_dataset = QADataset(args, "../drive/MyDrive/bioasqhalf.jsonl.gz")
 
     # Create vocabulary and tokenizer.
-    vocabulary = Vocabulary(train_dataset.samples, args.vocab_size)
+    vocabulary = Vocabulary(train_dataset.samples+train_dataset_focus.samples, args.vocab_size)
     tokenizer = Tokenizer(vocabulary)
-    for dataset in (train_dataset, dev_dataset):
+    for dataset in (train_dataset, train_dataset_focus, dev_dataset):
         dataset.register_tokenizer(tokenizer)
     args.vocab_size = len(vocabulary)
     args.pad_token_id = tokenizer.pad_token_id
@@ -476,6 +476,7 @@ def main(args):
     # Print number of samples.
     print(f'train samples = {len(train_dataset)}')
     print(f'dev samples = {len(dev_dataset)}')
+    print(f'fine tuning  = {len(train_dataset_focus)}')
     print()
 
     # Select model.
@@ -505,9 +506,43 @@ def main(args):
         best_eval_loss = float('inf')
 
         # Begin training.
-        for epoch in range(1, args.epochs + 1):
+        for epoch in range(1, 3):
             # Perform training and evaluation steps.
             train_loss = train(args, epoch, model, train_dataset)
+            eval_loss = evaluate(args, epoch, model, dev_dataset)
+
+            # If the model's evaluation loss yields a global improvement,
+            # checkpoint the model.
+            eval_history.append(eval_loss < best_eval_loss)
+            if eval_loss < best_eval_loss:
+                best_eval_loss = eval_loss
+                #torch.save(model.state_dict(), args.model_path)
+            
+            print(
+                f'epoch = {epoch} | '
+                f'train loss = {train_loss:.6f} | '
+                f'eval loss = {eval_loss:.6f} | '
+                f"{'saving model!' if eval_history[-1] else ''}"
+            )
+
+            # If early stopping conditions are met, stop training.
+            if _early_stop(args, eval_history):
+                suffix = 's' if args.early_stop > 1 else ''
+                print(
+                    f'no improvement after {args.early_stop} epoch{suffix}. '
+                    'early stopping...'
+                )
+                print()
+                break
+            
+        # Begin focus training ------------------------------------------
+        eval_history = []
+        best_eval_loss = float('inf')
+
+       
+        for epoch in range(1, args.epochs + 1):
+            # Perform training and evaluation steps.
+            train_loss = train(args, epoch, model, train_dataset_focus)
             eval_loss = evaluate(args, epoch, model, dev_dataset)
 
             # If the model's evaluation loss yields a global improvement,
@@ -533,7 +568,6 @@ def main(args):
                 )
                 print()
                 break
-
     if args.do_test:
         # Write predictions to the output file. Use the printed command
         # below to obtain official EM/F1 metrics.

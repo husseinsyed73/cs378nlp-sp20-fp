@@ -1,0 +1,198 @@
+{"qid": "2cf03749226444fea30c672c678b3d63", "answer": "neutrophil elastase gene"}
+{"qid": "b0f3562cb2574620ba46ae33c88d65b3", "answer": "tardive dyskinesia ( td ) is a movement disorder"}
+{"qid": "b7cd2f0a380d4d14b488e20ddf88b204", "answer": "antioxidant"}
+{"qid": "733e977ad4f14caf9148b8dbb151fd8c", "answer": "antioxidant enzymes involved in protein and lipid protection against oxidative injury and in cellular signalling pathways"}
+{"qid": "c3addb03d57c47208e8a84201cdf7608", "answer": "antioxidant"}
+{"qid": "26a83e722adc4516a5e0f6a8f7c8caaa", "answer": "cysteine"}
+{"qid": "b7b765a669484522bfdfa013ced2bc9d", "answer": "antioxidant"}
+{"qid": "1907600356cb4afeb53267a9f83291d7", "answer": "cyclin"}
+{"qid": "4f34ebb86bd542e3a0ce6e21de3fe86a", "answer": "acetyl l - cysteine"}
+{"qid": "f1d83c49ddc1460baffb741b5751e1c2", "answer": "mitogen - activated protein kinase"}
+{"qid": "4725ab4959074b2b82db8e9b8383de5d", "answer": "antioxidant"}
+{"qid": "e02be922827e4845bcfa8b7bbd3e8a3e", "answer": "cysteine"}
+{"qid": "5972815d8210470eb84c3da30f0aa090", "answer": "dimeric"}
+{"qid": "e0afb40c95bf43ecb23eaab63790e3b4", "answer": "lipid"}
+{"qid": "cef4a7fbb56948418ee4895ae79c5294", "answer": "dyskinesia"}
+{"qid": "a599caa6467c4126af22518a18e24c41", "answer": "benserazide"}
+{"qid": "51cc9b8c720b4a8da80558914feaa7f7", "answer": "hydrobromide"}
+{"qid": "9109377696c0452b896a102d8836ded8", "answer": "dyskinesia"}
+{"qid": "7084fb7065f745f3870b1046a517cc3a", "answer": "4]benzodiazepine"}
+{"qid": "fd218c6955b9465b8d895d3154d58ebb", "answer": "l - dopa"}
+{"qid": "5aad124ed6b3449e87579c5571aa6c64", "answer": "levodopa"}
+{"qid": "d11256fd28f844698bd688152f464ae5", "answer": "dopa decarboxylase"}
+{"qid": "b8c8036eed1c449eb5db1160c25e2ed4", "answer": "benserazide"}
+{"qid": "08994280294d46b78596738f2a8bd39a", "answer": "tolcapone"}
+{"qid": "56b8eb3015f747f78f3544b919c22c37", "answer": "leukoencephalopathy"}
+{"qid": "27c99f3d44a94401b785406bd2f20967", "answer": "notch3"}
+{"qid": "fc24f2392a694a878abd703ed179be42", "answer": "notch3"}
+{"qid": "23e49b37f14a466999405fd5b5603a3b", "answer": "notch3"}
+{"qid": "af0fd3f5bf9540ba8eb2d1ef50fc1544", "answer": "notch3"}
+{"qid": "b2f73e6827624d46a50622245bc0bc8c", "answer": "notch3"}
+{"qid": "2c9f414f7a3a499893e29b02c1e7994e", "answer": "notch3"}
+{"qid": "966839ca942444edadde10ae73c038bf", "answer": "rt - pcr"}
+{"qid": "33f0175a3dd1410a979d8698198ca39b", "answer": "notch3"}
+{"qid": "63bd935131b94b97a6120e16b7ff3249", "answer": "notch3 gene . detection of apoptotic nuclei in temporal lobe , brain stem , medulla oblongata"}
+{"qid": "445eaec1f42042ac82afda98668e9da8", "answer": "ifn"}
+{"qid": "3d4407ef652d4c23ba87702480b6b50a", "answer": "ifn gene signature"}
+{"qid": "0c569438ed394a3b9e7d3c5ed7abd507", "answer": "ifn"}
+{"qid": "f6eab2419905453ca9b5d473fbd2264f", "answer": "ifn gene"}
+{"qid": "255dd5946c024c9287665ddcd2830180", "answer": "interferon - dependent genes in their leukocytes , termed the interferon signature"}
+{"qid": "ee9066e593e54642861b2b0705b2a15a", "answer": "recombinant ifn\u03b2 . as can also be proposed for type i diabetes mellitus"}
+{"qid": "78f9bca0ee664b74b0be699e63138b9b", "answer": "ifn - signature"}
+{"qid": "b57e6d932c6f403896f80cdbf5c54bf9", "answer": "genome - wide microsatellite screens and large - scale single nucleotide polymorphism"}
+{"qid": "edddbb8cad694d9a8b64e23dfb8292ba", "answer": "egfr"}
+{"qid": "5cfd33dc4aa142d6ae71e5954d750d83", "answer": "poly - adp - ribosylating"}
+{"qid": "7082bcfbfa9a4128987d569a4296cbb7", "answer": "egfr"}
+{"qid": "98bf14cf3f54411fb46b808b1029b76d", "answer": "egfr"}
+{"qid": "db82e6a831de4a5e9ce53368a088128a", "answer": "taqman pcr assay"}
+{"qid": "4c43e1cef300429f95de389403fe64ce", "answer": "egfr"}
+{"qid": "a19945a83e2d457caf189e2614c1ac05", "answer": "fluorescently labeled polymerase"}
+{"qid": "8748822cf025490fa5c05702c435c394", "answer": "allele - specific oligonucleotide polymerase"}
+{"qid": "c1fed25571dd435caf919c7770d931d8", "answer": "egfr"}
+{"qid": "29f2855a4f1e49cabf0d468c74465cb7", "answer": "tyrosine kinase"}
+{"qid": "2e559521de4543c0bcd36ddc1c47fc44", "answer": "tyrosine kinase inhibitors"}
+{"qid": "ab5ce079faa34a7b97b77449fa304a3f", "answer": "parkinson 's disease"}
+{"qid": "9a225d6aa2034d27a58fc2dea42dbe40", "answer": "parkinson 's disease"}
+{"qid": "630e6932bb704bc7a85107087e4dd2ea", "answer": "parkinson 's disease"}
+{"qid": "db39b179aff4498e87b78355b6034f5b", "answer": "parkinson 's disease"}
+{"qid": "5116ed1e5bce44f9a571d769db4825bf", "answer": "parkinson 's disease"}
+{"qid": "93e3e9fa03db483194b1dc67af0aa5af", "answer": "parkinson 's disease"}
+{"qid": "c042537f3aac4a97a4633fcf4c88fc5b", "answer": "\u03b1 - synuclein"}
+{"qid": "2fa17a29be5d4cdb8b61ce90ede60e4a", "answer": "alpha - synuclein"}
+{"qid": "fe5cca28fd2c430ca12e90e27e78ad75", "answer": "substantia nigra"}
+{"qid": "b43e2230834144e38cbeb13c23ffd134", "answer": "intron f contains a fully consensus branch"}
+{"qid": "47e09473d3cd4d209e14ce17285a816e", "answer": "alpha"}
+{"qid": "b37db289ef2948e9b5e75fbc0cbd66bf", "answer": "alpha"}
+{"qid": "341b721c73f64225b0bb8a8e9b4fdbef", "answer": "beta"}
+{"qid": "159e2ef1d3ca4a3b889fd3fd5ef2acb9", "answer": "alpha"}
+{"qid": "13e06194c39f4c6793d4a21daead187f", "answer": "lc - ms"}
+{"qid": "6f535f0663104aabbe0325e73769505f", "answer": "alpha - actinin . the adjacent actin binding domain on the beta"}
+{"qid": "98eb6a6cc03a4c00a5f1dbda3e4cead5", "answer": "alpha and beta"}
+{"qid": "0cf3e09ca48743ab8afcd531f7b306e9", "answer": "antiparallel dimers"}
+{"qid": "fe7f78eec1aa4f8ebb0a554fd87ebe06", "answer": "alpha"}
+{"qid": "792b104e025543b5b32f47d3bb1b5c44", "answer": "alpha"}
+{"qid": "ab902c462f7c4599b28d61cef6b38d84", "answer": "sander.h.bollen@gmail.com"}
+{"qid": "4a19f71a111a4c8383421715c8506878", "answer": "osteomyelitis"}
+{"qid": "117440db7a2441f29ff04ebe978b490f", "answer": "osteomyelitis"}
+{"qid": "63e453c58aac4f2abda1af843d1f2c50", "answer": "osteomyelitis"}
+{"qid": "1b2f285e651143908bfc335257a9a3df", "answer": "osteomyelitis"}
+{"qid": "a31831baf7b64813bd2cd193e35c0c77", "answer": "osteomyelitis"}
+{"qid": "8c77296f28c84ecf8c27e74782380f94", "answer": "x - linked intellectual disability"}
+{"qid": "fecb8a65f2cf49afa3fcf85558513068", "answer": "65-year - old white man presented with all the clinical features of acrokeratosis paraneoplastica of bazex"}
+{"qid": "a9d9940bee7341a8a218451d58740c07", "answer": "acrokeratosis paraneoplastica"}
+{"qid": "d451ee65e0e14baaa98a29b68092c5fc", "answer": "acrokeratosis paraneoplastica"}
+{"qid": "13712b1db9094ec2bd023d0036495b5d", "answer": "acrokeratosis paraneoplastica"}
+{"qid": "cb6b2fd507404102b664bfb2cb1ad97e", "answer": "acrokeratosis paraneoplastica of bazex"}
+{"qid": "17fe85e739194ecda4e790b9d6224dc0", "answer": "acrokeratosis paraneoplastic"}
+{"qid": "b5173fd9f31f44a4b8a0a7793cff9f0f", "answer": "bazex syndrome"}
+{"qid": "a02c851b01e7465280df78b10bd835f5", "answer": "thalamic nucleus"}
+{"qid": "f2a831f2a3fc46d1a5b456712da85b80", "answer": "pallidum"}
+{"qid": "2c1bd1c29737403c884ad051c6440ed5", "answer": "icu"}
+{"qid": "ced1b7f9545a491eadf94408518db9dc", "answer": "twiddler"}
+{"qid": "6459013464a14756bc918aec303e7b5a", "answer": "bp - dbs"}
+{"qid": "f1a38a0735d74f2580015f818c2fe6de", "answer": "radial"}
+{"qid": "0460fb3061fd40ec8e30bfca61c596bb", "answer": "median nerve"}
+{"qid": "7bd8a7a1bafe47c3abd747f77a580738", "answer": "median nerve"}
+{"qid": "944fef283f4a45c0b0e909cc2f35bb32", "answer": "median nerve"}
+{"qid": "7d31ab9e001e4207a7f6499a2b13dd0e", "answer": "median nerve neuropathy"}
+{"qid": "189f48ba6a4e4b66bd3f554956186a5b", "answer": "median nerve"}
+{"qid": "e7a2970328e24da5a36fb43bd514f72a", "answer": "median nerve"}
+{"qid": "93ad2db0fa834732a6d5f571bafee311", "answer": "carpal tunnel syndrome"}
+{"qid": "d280d6107fe547dca76066cc0481218e", "answer": "carpal tunnel syndrome"}
+{"qid": "3da4e2bccf984afb8212d78a6eab3d6f", "answer": "median nerve"}
+{"qid": "75f0878c248e4bbab73420d14772e958", "answer": "nerve / tunnel index , which represents a new standard for diagnosing carpal tunnel syndrome"}
+{"qid": "204004adaf394da29332aa0a6d83a243", "answer": "autosomal recessive arvc , palmoplantar keratoderma"}
+{"qid": "82cb45ef0dce4731bfd7549461b332ab", "answer": "idiopathic ventricular fibrillation"}
+{"qid": "fb1932c2568743f8a7e02da6141a50f9", "answer": "leukemia nuclear bodies"}
+{"qid": "72198761654a45ae94b82109ef387fe0", "answer": "refractory epilepsy"}
+{"qid": "fcc71128ce954ca0aaa995650ab41118", "answer": "epilepsy and focal cortical dysplasia"}
+{"qid": "4e97ba94bae54666969f2d440b9221ff", "answer": "dysplasia"}
+{"qid": "71df3d8251d84f0f8c452651b470a6ec", "answer": "epilepsy"}
+{"qid": "c273e4acf5d244feb5d5fca095c0254f", "answer": "nestin . fcd is a common cause of refractory epilepsy"}
+{"qid": "60e454922314443b97e1f6b1a486c79a", "answer": "neurofibromatosis"}
+{"qid": "e1524573cdd7436d8cd3549b8bac2c1c", "answer": "epilepsy"}
+{"qid": "77a1eb46e1a443b7a081e53c29ae2ce0", "answer": "dysplasia"}
+{"qid": "83d14fe95f5740f0a8febe5c79a52938", "answer": "dysplasia"}
+{"qid": "1ca976e520c446edbad5c210775e0dc5", "answer": "epilepsy ( ilae ) classification of focal cortical dysplasia"}
+{"qid": "b9e939ba9f2c4fa89af0a12d34b058f2", "answer": "epilepsy"}
+{"qid": "6016428d0f8e493c8cbd0a4863c7c102", "answer": "cortical dysplasia"}
+{"qid": "06ee6c4a1f9d4cd19afcd49b8dd40d16", "answer": "dynamin - related protein opa1"}
+{"qid": "da99a2b47daf44bb94a87ccf477bf308", "answer": "gtp - binding proteins"}
+{"qid": "a304967557fb41c5a6ef72141bdd17f8", "answer": "erythrocyte soluble catechol - o - methyltransferase"}
+{"qid": "ca9ef69c3b7343959201d7a68ea4835c", "answer": "catechol - o - methyltransferase"}
+{"qid": "0e5ff4402f1e44c1a1d80868713f9b9f", "answer": "catechol - o - methyltransferase"}
+{"qid": "27c5cce16a694b1292f9a384c43beab6", "answer": "catechol - o - methyltransferase"}
+{"qid": "6bedca90e5b9429482c8374aa747b8c4", "answer": "catechol - o - methyltransferase"}
+{"qid": "250caa665c8448fb98e285306f80e63e", "answer": "helix - hairpin - helix"}
+{"qid": "d8e2390fcaf54e2d922c90ca3601a0fe", "answer": "autosomal dominant"}
+{"qid": "30fd38ce62fe459b88937446ee06bcbb", "answer": "autosomal recessive"}
+{"qid": "2b1cbc97f08540448a7f9be2e32cd04c", "answer": "autosomal dominant"}
+{"qid": "4dacfcd587cf4e6f8eed4e508e7a454e", "answer": "nsd1"}
+{"qid": "da2112b55fe74ffe80afbc48f42143f7", "answer": "nsd1"}
+{"qid": "2cf9e36ee549421b84170a93d439b69d", "answer": "nsd1"}
+{"qid": "21b8aedf45d248998d7f1fe63ff3f685", "answer": "sotos"}
+{"qid": "f970b6e9da0e4f42b3418a51e4e4c545", "answer": "nsd1 gene"}
+{"qid": "86eebad997b34e70b99bab30bc82e7b6", "answer": "de novo pten gene"}
+{"qid": "c0eee31746d343f19dcd03ff0c8496b2", "answer": "nsd1"}
+{"qid": "e3fcd872a2a34c279d4633b77cd0d266", "answer": "nsd1"}
+{"qid": "1a50ca89e68b478197f95616dd07746e", "answer": "nsd1"}
+{"qid": "94ca9bf4ee72459085a2b6464d531562", "answer": "t - cell immunodeficiency"}
+{"qid": "86b60944892d4aba80de48bd155dcdcb", "answer": "cerebrovascular"}
+{"qid": "549c82a2fcb04e38a84c3f7661eeeaf0", "answer": "smarcal1 orthologs"}
+{"qid": "4688b81a249a4edd87b46d5ce300cfcf", "answer": "lysosomal"}
+{"qid": "f33d6fecbf754206bd68d7fc7adad530", "answer": "lysosomal"}
+{"qid": "a636a925df634cada0c2d6964688e93a", "answer": "lysosomal"}
+{"qid": "00514408a6c643d68ffbd2cf86d20e0e", "answer": "lysosomal lumen"}
+{"qid": "231d54cde09548338f239c48ff1fd357", "answer": "lysosomal membrane protein"}
+{"qid": "2af13c4b405e44c8820036a07143c462", "answer": "lysosomal lumen"}
+{"qid": "fdc608c223704b0ca4a61d478dc8dbe2", "answer": "\u03b1 - synuclein"}
+{"qid": "af4403448ae94c1aa52153c83756e095", "answer": "repressor"}
+{"qid": "86bd299403624adfa79bf2ac1de79528", "answer": "lysosomal"}
+{"qid": "902996f009de41b18ed94ad607438522", "answer": "c - jun n - terminal kinase"}
+{"qid": "db7adf06a3c547ec93d26a22ee2e1de9", "answer": "phosphatase"}
+{"qid": "b7441dc6481f4a8c8ea767fe70d618bb", "answer": "threonine - tyrosine phosphatase"}
+{"qid": "8bdfb8eb6c274633b133fbadf8eaa257", "answer": "phosphatase"}
+{"qid": "a351b22b820341a499b92892e91315d8", "answer": "c - jun n - terminal kinase"}
+{"qid": "c5027f2833494601b4a79b125f0210f2", "answer": "c - jun n - terminal kinase"}
+{"qid": "0e17fa4dc2be4a299e36c5cf49b2fbee", "answer": "mitogen - activated protein kinase"}
+{"qid": "15635a9670bf475ab611b9b1921bbb96", "answer": "phthiriasis palpebrarum is an uncommon cause of blepharoconjunctivitis"}
+{"qid": "43b0abaf398b499e989d529cdb03c301", "answer": "phthiriasis palpebrarum is an infestation of the eyelashes caused by the louse pthirus pubis"}
+{"qid": "d99ab786d2ec4d17b1540cf721370ef0", "answer": "pruritic eyelid margins"}
+{"qid": "ec272621cd3149a5b39e759406ab8844", "answer": "adenocarcinomas"}
+{"qid": "15bd193287ec4c43b761c54699d4ca55", "answer": "northeast"}
+{"qid": "cb1860ac490e4c2cb4db0aaf636faa83", "answer": "groucho"}
+{"qid": "bf4ddb3d39ae4a8ebc75f6c6b7218fbb", "answer": "c - terminal set domain"}
+{"qid": "549167c35b584704bfc6c93fb4bb55e9", "answer": "zinc - finger motif ) is a histone methyltransferase"}
+{"qid": "aa7139e1cfe6425786610c4bf1781099", "answer": "alpha - helical n - terminal domain"}
+{"qid": "704744227c8048f0b703848334d6ec87", "answer": "methyltransferase set - domain"}
+{"qid": "94917b06092641a5af6b7e211171d69d", "answer": "mutation disrupts prc2 histone methyltransferase"}
+{"qid": "f424eb5bb7c24c5185b12545eb402821", "answer": "pr - set7"}
+{"qid": "2a976c6394c14d34bced70aaed51880b", "answer": "methyltransferases deposit methyl marks on specific histone tail lysine residues"}
+{"qid": "6e30dde1ec814c99a87bb332ce35af0c", "answer": "histone h3"}
+{"qid": "3f7b340bb0f840e98a015f2346104288", "answer": "lysine residues in the n - terminal tails of histones"}
+{"qid": "cdc42c838604450c83009db175c03137", "answer": "s - adenosyl - l - homocysteine"}
+{"qid": "0e9ad5ae9db7422d92338cea8e52e210", "answer": "methyltransferase"}
+{"qid": "56ed50d7657b481ea0e2512c19bb0438", "answer": "s - adenosyl - l - methionine"}
+{"qid": "bf7e56357754453da53cec3c83cb7ef2", "answer": "methyltransferase"}
+{"qid": "abd10770670a4418a7c6b4d3caab167b", "answer": "methyltransferase dim-5"}
+{"qid": "d0135b10802e48faa90f81f7c49257ad", "answer": "mediates protein - protein interactions and a c - terminal set domain"}
+{"qid": "d8dc6dcb02604df98e1a216e74a229fa", "answer": "sotos syndrome gene product , nsd1 , is a set domain histone methyltransferase"}
+{"qid": "d2b96659e02a4db4a080036e2a0c4128", "answer": "murine suv39h1 - -mammalian"}
+{"qid": "7b483c4cbcd8422c8a975ae0c76fa06c", "answer": "methyltransferase complex . confocal microscopy"}
+{"qid": "10848a4c98c7472199863319754dae63", "answer": "eset"}
+{"qid": "9251d4f613a84dea893231ca779d93d1", "answer": "h3 lysine 9"}
+{"qid": "455d3e2bfca04bab969414f28100925b", "answer": "h3 methyltransferase"}
+{"qid": "f5801149c94f4f65b82ee302b13c0d29", "answer": "lysine methyltransferases"}
+{"qid": "e57c68a8293d462f9fdab7bb2767c729", "answer": "murine g9a is a 1263 amino acid h3-k9 methyltransferase"}
+{"qid": "e1caec128d5f4cb4a20159f0430b80d1", "answer": "h3 lysine 4"}
+{"qid": "68b1c5deb7d64bd7862645b2ab55c4ff", "answer": "subunit methyltransferase"}
+{"qid": "f7e5563396b64495a72b3ad4feedde3e", "answer": "carboxyl - terminal set domain"}
+{"qid": "0e98ec9fa2fc434f89b5688800607a86", "answer": "ct pulmonary angiography"}
+{"qid": "c80dfd34b9334ad1b4191ebe7f406ed0", "answer": "essentials"}
+{"qid": "fc7a87328e5b4888b2a342e3a22a865e", "answer": "pretest probability . sensitivity and specificity of cta and v / q scan"}
+{"qid": "862da8740a8c404c925e5d6116db47e5", "answer": "pulmonary embolism"}
+{"qid": "28e8fe6709904ff19ee941b716a6183e", "answer": "pulmonary embolism - unlikely"}
+{"qid": "0bf17a3982cf449e9c3c7f52a98650c2", "answer": "evidence - based clinical decision support"}
+{"qid": "a1f4e0c1a4c84385836fb9879b463d73", "answer": "limb - enhancer"}
+{"qid": "d38d490c5d9f45a0818bec552463879b", "answer": "denosumab"}
+{"qid": "837a5b390c774c3fbedff1c210936633", "answer": "rankl"}
