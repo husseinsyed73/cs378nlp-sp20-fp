@@ -167,7 +167,7 @@ parser.add_argument(
 parser.add_argument(
     '--embedding_dim',
     type=int,
-    default=200,
+    default=300,
     help='embedding dimension',
 )
 parser.add_argument(
@@ -312,7 +312,6 @@ def train(args, epoch, model, dataset):
     for batch in train_dataloader:
         # Zero gradients.
         optimizer.zero_grad()
-
         # Forward inputs, calculate loss, optimize model.
         start_logits, end_logits = model(batch)
         loss = _calculate_loss(
@@ -540,7 +539,7 @@ def main(args):
         best_eval_loss = float('inf')
 
        
-        for epoch in range(1, args.epochs + 1):
+        for epoch in range(1, args.epochs):
             # Perform training and evaluation steps.
             train_loss = train(args, epoch, model, train_dataset_focus)
             eval_loss = evaluate(args, epoch, model, dev_dataset)

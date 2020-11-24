@@ -236,7 +236,6 @@ class BaselineReader(nn.Module):
             if word in embedding_map:
                 embeddings[i] = torch.tensor(embedding_map[word])
                 num_pretrained += 1
-
         # Place embedding matrix on GPU.
         self.embedding.weight.data = cuda(self.args, embeddings)
 
