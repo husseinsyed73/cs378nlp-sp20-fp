@@ -525,7 +525,7 @@ def main(args):
             )
 
             # If early stopping conditions are met, stop training.
-            if _early_stop(args, eval_history):
+            if _early_stop(args, eval_history) and False:
                 suffix = 's' if args.early_stop > 1 else ''
                 print(
                     f'no improvement after {args.early_stop} epoch{suffix}. '
@@ -560,7 +560,7 @@ def main(args):
 
             # If early stopping conditions are met, stop training.
             
-            if _early_stop(args, eval_history):
+            if _early_stop(args, eval_history) and False:
                 suffix = 's' if args.early_stop > 1 else ''
                 print(
                     f'no improvement after {args.early_stop} epoch{suffix}. '
