@@ -505,7 +505,7 @@ def main(args):
         best_eval_loss = float('inf')
 
         # Begin training.
-        for epoch in range(1, 3):
+        for epoch in range(1, 10):
             # Perform training and evaluation steps.
             train_loss = train(args, epoch, model, train_dataset)
             eval_loss = evaluate(args, epoch, model, dev_dataset)
@@ -539,7 +539,7 @@ def main(args):
         best_eval_loss = float('inf')
 
        
-        for epoch in range(1, 4):
+        for epoch in range(1, 2):
             # Perform training and evaluation steps.
             train_loss = train(args, epoch, model, train_dataset_focus)
             eval_loss = evaluate(args, epoch, model, dev_dataset)

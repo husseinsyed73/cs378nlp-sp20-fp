@@ -74,7 +74,7 @@ def load_cached_embeddings(path):
         Dictionary mapping words (strings) to vectors (list of floats).
     This checks if we allready created the data set
     """
-    if False:
+    if True:
       model = gensim.models.KeyedVectors.load_word2vec_format(
      	  '../drive/MyDrive/BioWordVec_PubMed_MIMICIII_d200.vec.bin',
       	  binary=True,
