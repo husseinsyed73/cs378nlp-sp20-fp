@@ -515,7 +515,7 @@ def main(args):
             eval_history.append(eval_loss < best_eval_loss)
             if eval_loss < best_eval_loss:
                 best_eval_loss = eval_loss
-                #torch.save(model.state_dict(), args.model_path)
+                torch.save(model.state_dict(), args.model_path)
             
             print(
                 f'epoch = {epoch} | '
@@ -539,7 +539,7 @@ def main(args):
         best_eval_loss = float('inf')
 
        
-        for epoch in range(1, 6):
+        for epoch in range(1, 4):
             # Perform training and evaluation steps.
             train_loss = train(args, epoch, model, train_dataset_focus)
             eval_loss = evaluate(args, epoch, model, dev_dataset)
@@ -549,7 +549,7 @@ def main(args):
             eval_history.append(eval_loss < best_eval_loss)
             if eval_loss < best_eval_loss:
                 best_eval_loss = eval_loss
-                torch.save(model.state_dict(), args.model_path)
+                #torch.save(model.state_dict(), args.model_path)
             
             print(
                 f'epoch = {epoch} | '
@@ -560,7 +560,7 @@ def main(args):
 
             # If early stopping conditions are met, stop training.
             
-            if _early_stop(args, eval_history) and False:
+            if _early_stop(args, eval_history):
                 suffix = 's' if args.early_stop > 1 else ''
                 print(
                     f'no improvement after {args.early_stop} epoch{suffix}. '
@@ -568,7 +568,7 @@ def main(args):
                 )
                 print()
                 break
-            
+    torch.save(model.state_dict(), args.model_path)        
     if args.do_test:
         # Write predictions to the output file. Use the printed command
         # below to obtain official EM/F1 metrics.
