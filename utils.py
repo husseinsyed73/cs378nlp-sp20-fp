@@ -75,14 +75,14 @@ def load_cached_embeddings(path):
     This checks if we allready created the data set
     """
     if True:
-      model = gensim.models.KeyedVectors.load_word2vec_format(
+      embedding_map = gensim.models.KeyedVectors.load_word2vec_format(
      	  '../drive/MyDrive/BioWordVec_PubMed_MIMICIII_d200.vec.bin',
       	  binary=True,
       	  #limit=None,
           #faster load if you limit to most frequent terms
 		      limit=int(5E6+999999)
 	    )
-      return model 
+      return embedding_map 
     bare_path = os.path.splitext(path)[0]
     cached_path = f'{bare_path}.pkl'
     if os.path.exists(cached_path):
