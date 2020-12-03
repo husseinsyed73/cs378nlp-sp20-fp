@@ -80,15 +80,16 @@ def load_cached_embeddings(path):
       	  binary=True,
       	  #limit=None,
           #faster load if you limit to most frequent terms
-		      limit=int(5E6+999999)
+		      limit=int(5)
 	    )
       #return embedding_mapa 
     bare_path = os.path.splitext(path)[0]
     cached_path = f'{bare_path}.pkl'
     if os.path.exists(cached_path):
-        return pickle.load(open(cached_path, 'rb'))
+        return embedding_mapa, pickle.load(open(cached_path, 'rb'))
     embedding_map = load_embeddings(path)
     pickle.dump(embedding_map, open(cached_path, 'wb'))
+    print("heredfgsdfgsdfgsdfgsdfgsdfg")
     return embedding_mapa, embedding_map
     
 
