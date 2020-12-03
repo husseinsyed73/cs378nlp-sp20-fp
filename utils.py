@@ -75,21 +75,21 @@ def load_cached_embeddings(path):
     This checks if we allready created the data set
     """
     if True:
-      embedding_map = gensim.models.KeyedVectors.load_word2vec_format(
+      embedding_mapa = gensim.models.KeyedVectors.load_word2vec_format(
      	  '../drive/MyDrive/BioWordVec_PubMed_MIMICIII_d200.vec.bin',
       	  binary=True,
       	  #limit=None,
           #faster load if you limit to most frequent terms
 		      limit=int(5E6+999999)
 	    )
-      return embedding_map 
+      #return embedding_mapa 
     bare_path = os.path.splitext(path)[0]
     cached_path = f'{bare_path}.pkl'
     if os.path.exists(cached_path):
         return pickle.load(open(cached_path, 'rb'))
     embedding_map = load_embeddings(path)
     pickle.dump(embedding_map, open(cached_path, 'wb'))
-    return embedding_map
+    return embedding_mapa, embedding_map
     
 
 

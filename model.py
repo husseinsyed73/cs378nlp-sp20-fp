@@ -215,6 +215,7 @@ class BaselineReader(nn.Module):
         self.end_output = BilinearOutput(_hidden_dim, _hidden_dim)
 
     def load_pretrained_embeddings(self, vocabulary, path):
+        File_object = open(r"results.txt","a")
         """
         Loads GloVe vectors and initializes the embedding matrix.
 
@@ -222,7 +223,7 @@ class BaselineReader(nn.Module):
             vocabulary: `Vocabulary` object.
             path: Embedding path, e.g. "glove/glove.6B.300d.txt".
         """
-        embedding_map = load_cached_embeddings(path)
+        embedding_map, embedding_mapb = load_cached_embeddings(path)
 
         # Create embedding matrix. By default, embeddings are randomly
         # initialized from Uniform(-0.1, 0.1).
@@ -237,6 +238,8 @@ class BaselineReader(nn.Module):
                 embeddings[i] = torch.tensor(embedding_map[word])
                 num_pretrained += 1
         # Place embedding matrix on GPU.
+            if word in embedding_map and word not in embedding_mapb:
+                File_object.write(word)
         self.embedding.weight.data = cuda(self.args, embeddings)
 
         return num_pretrained
