@@ -460,8 +460,8 @@ def main(args):
 
     # Set up datasets.
     train_dataset = QADataset(args, args.train_path)
-    train_dataset_focus = QADataset(args,"../drive/MyDrive/bioasqfocus.jsonl.gz")
-    dev_dataset = QADataset(args, "../drive/MyDrive/bioasqhalf.jsonl.gz")
+    train_dataset_focus = QADataset(args,"datasets/newsqa_train.jsonl.gz")
+    dev_dataset = QADataset(args, "datasets/newsqa_dev.jsonl.gz")
 
     # Create vocabulary and tokenizer.
     vocabulary = Vocabulary(train_dataset.samples+train_dataset_focus.samples, args.vocab_size)
@@ -525,7 +525,7 @@ def main(args):
             )
 
             # If early stopping conditions are met, stop training.
-            if _early_stop(args, eval_history) and False:
+            if _early_stop(args, eval_history) :
                 suffix = 's' if args.early_stop > 1 else ''
                 print(
                     f'no improvement after {args.early_stop} epoch{suffix}. '
@@ -539,7 +539,7 @@ def main(args):
         best_eval_loss = float('inf')
 
        
-        for epoch in range(1, 2):
+        for epoch in range(1, 1):
             # Perform training and evaluation steps.
             train_loss = train(args, epoch, model, train_dataset_focus)
             eval_loss = evaluate(args, epoch, model, dev_dataset)
